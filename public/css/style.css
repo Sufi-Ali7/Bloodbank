@@ -1,0 +1,5 @@
+.page{display:none}.page.active{display:block}
+button{transition:.2s} button:hover{transform:translateY(-1px)}
+#inventory-map .leaflet-container{height:100%;width:100%}
+input,select,textarea{background:transparent}
+.dark input,.dark select,.dark textarea{color:#fff}
