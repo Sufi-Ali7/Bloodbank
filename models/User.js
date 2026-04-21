@@ -147,7 +147,7 @@ const userSchema = new mongoose.Schema(
   }
 );
 
-userSchema.index({ email: 1 }, { unique: true });
+// Only one email index definition
 userSchema.index({ location: '2dsphere' });
 
 module.exports = mongoose.model('User', userSchema);
